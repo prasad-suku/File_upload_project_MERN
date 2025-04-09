@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  /* background: #252424; */
+  display: grid;
+  place-items: center;
+}
+
+.input-file-uploader {
+  border: 2px dashed rgb(47, 224, 85);
+  cursor: pointer;
+  /* margin: 0 auto; */
+  height: 130px;
+  display: grid;
+  place-content: center;
+
+  margin: 2rem 0;
+}
+.input-file-uploader input {
+  width: 0.2px;
+  height: 0.2px;
+}
+
+.input-file-uploader label {
+  color: black;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fileCount {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+}
+
+.previewContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.previewContainer .wrapPreview {
+  position: relative;
+}
+
+.wrapPreview img {
+  width: 60px;
+  height: 60px;
+}
+
+.removebtn {
+  background: red;
+  border: none;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: -1rem;
+  right: -3px;
+}
+.uploadbtn {
+  display: block;
+  /* margin-top: 2rem; */
+  background: rgb(29, 87, 194);
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  margin: 0 auto;
+  font-size: 22px;
+}

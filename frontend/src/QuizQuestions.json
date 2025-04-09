@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What is the output of the following code: `console.log(typeof null)`?",
+    "options": ["object", "null", "undefined", "string"],
+    "answer": "object"
+  },
+  {
+    "question": "Which of the following is NOT a primitive data type in JavaScript?",
+    "options": ["number", "string", "boolean", "array"],
+    "answer": "array"
+  },
+  {
+    "question": "What is the purpose of the `this` keyword in JavaScript?",
+    "options": [
+      "to refer to the global object",
+      "to refer to the current object",
+      "to refer to the parent object",
+      "to refer to the child object"
+    ],
+    "answer": "to refer to the current object"
+  },
+  {
+    "question": "What is the difference between `==` and `===` in JavaScript?",
+    "options": [
+      "`==` checks for value equality, `===` checks for type and value equality",
+      "`==` checks for type and value equality, `===` checks for value equality",
+      "`==` checks for reference equality, `===` checks for value equality",
+      "`==` checks for value equality, `===` checks for reference equality"
+    ],
+    "answer": "`==` checks for value equality, `===` checks for type and value equality"
+  },
+  {
+    "question": "What is the output of the following code: `var x = 5; var y = x; y = 10; console.log(x)`?",
+    "options": ["5", "10", "undefined", "null"],
+    "answer": "5"
+  },
+  {
+    "question": "Which of the following is a valid way to declare a variable in JavaScript?",
+    "options": ["var x = 5;", "let x = 5;", "const x = 5;", "all of the above"],
+    "answer": "all of the above"
+  },
+  {
+    "question": "What is the purpose of the `try`-`catch` block in JavaScript?",
+    "options": [
+      "to handle errors and exceptions",
+      "to handle asynchronous code",
+      "to handle synchronous code",
+      "to handle variable declarations"
+    ],
+    "answer": "to handle errors and exceptions"
+  },
+  {
+    "question": "What is the output of the following code: `console.log([1, 2, 3].map(x => x * 2))`?",
+    "options": ["[1, 2, 3]", "[2, 4, 6]", "[3, 6, 9]", "[4, 8, 12]"],
+    "answer": "[2, 4, 6]"
+  },
+  {
+    "question": "Which of the following is a valid way to create a new object in JavaScript?",
+    "options": [
+      "var obj = {};",
+      "var obj = new Object();",
+      "var obj = Object.create();",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "question": "What is the purpose of the `finally` block in JavaScript?",
+    "options": [
+      "to handle errors and exceptions",
+      "to handle asynchronous code",
+      "to execute code regardless of whether an error occurred",
+      "to handle variable declarations"
+    ],
+    "answer": "to execute code regardless of whether an error occurred"
+  }
+]
